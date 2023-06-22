@@ -20,7 +20,7 @@
 #include "EvtGenBase/EvtDecayBase.hh"
 #include "EvtGenExternal/EvtExternalGenList.hh"
 
-namespace Pythia8 {
+using namespace Pythia8;
 
 //==========================================================================
 
@@ -617,6 +617,6 @@ bool EvtGenDecays::checkOsc(EvtParticle *egPro) {
 
 //==========================================================================
 
-} // end namespace Pythia8
+// end namespace Pythia8
 
 #endif // end Pythia8_EvtGen_H
